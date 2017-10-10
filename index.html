@@ -3,18 +3,48 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Random</title>
+		<link rel="stylesheet" type="text/css" href="./main.css">
+		<style>
+body {
+    background-color: lightblue;
+}
+</style>
 	</head>
 	<body>
+
 		<h1>Random Cats...</h1>
-		<div>
 			<div>
 				<img src="https://media.gettyimages.com/photos/siamese-cat-picture-id470972011?b=1&k=6&m=470972011&s=612x612&w=0&h=7ba28cht2wElU86D-Wd4-3TNM4HXGzzoyjLPDrqdIrc=">
 			</div>
-				<div>
+				<div class="inputSection">
+					<div class="inputs">
 					<input placeholder="Something"></input>
 				</div>
-			<button>Add</button>
-		</div>
-		<button>Go!</button>
+<style >
+	.button{
+	    background-color: white;
+	    color: black;
+	    border: 2px solid #008CBA;
+	    padding: 4px 4px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-weight: lighter
+	    font-size: 12px;
+	    margin: 4px 2px;
+	    -webkit-transition-duration: 0.4s; /* Safari */
+	    transition-duration: 0.4s;
+	    cursor: pointer;
+	}
+	.button1:hover {
+		background-color: #008CBA;
+	}
+	.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+	<button class="button button1">Add</button>
+			</div>
+			<button class="button button2">Go!</button>
 	</body>
 </html>
